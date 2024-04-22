@@ -13,7 +13,7 @@ export default async function Home() {
   return (
     <>
       <h1 className="text-center text-primary text-2xl font-semibold mt-5">Blog Post</h1>
-      <main className="grid grid-cols-1 md:grid-cols-2  mt-10 gap-4 pb-10">
+      <main className="grid grid-cols-1 md:grid-cols-2  mt-10 gap-4 ">
         {data.map((post, idx) => (
           <Card key={idx} className="">
             <Image
